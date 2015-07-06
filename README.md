@@ -93,7 +93,7 @@ cordova emulate android
 
 This will open an emulated Android device, on which you can navigate to and start your app.
 
-### Step 7. Put the App on your Device
+### Step 8. Put the App on your Device
 #### Android 
 You'll need to have the Developer options enabled on your device. If you're on Android 4.2 or above, these options are hidden by default. To access them:
  1. Go to your device's settings
