@@ -44,3 +44,20 @@ Open your _~/.bash_profile_ file and add the following line, changing 'Users/You
 ``` bash
 export PATH=${PATH}:/Users/You/android-sdk-macosx/tools:/Users/You/android-sdk-macosx/platform-tools
 ``` 
+This will allow you to run the build/emulate/run android commands in your terminal.
+
+### Step 4. Creating the App
+Run the following command (with modifications) in the directory you want the project to be in:
+``` bash
+cordova create hello com.example.hello HelloWorld
+```
+Where the first argument (_hello_) is the name of the directory, the second (_com.example.hello_) is a reverse domain style identifier for your project, and the third (_HelloWorld_) is the application's display text that will appear on your device. These second two can be changed later in the _config.xml_ file.
+
+After this, you should have a new direcory, containing a www directory, which is where you will put your code. If you've already got the files you need, put the css file into the css folder, the javascript file into the js folder, and the html in the root of the www directory. If you don't already have the files, _get coding!_
+
+### Step 5. Adding Platforms
+Run the following commands to add platforms to your project:
+``` bash
+cordova platform add android
+cordova platform add ios
+```
