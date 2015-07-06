@@ -74,3 +74,18 @@ cordova build ios
 
 ### Step 7. Test the app with an emulator
 #### Android
+Open the SDK manager, like we did in [Step 2](https://github.com/Danwhy/cordova-getting-started/blob/master/README.md#step-2-installing-the-sdk).
+
+In the Tools menu, open Manage AVDs.
+
+Then, go to Device Definitions, choose the device you want to emulate and click Create AVD.
+
+Give the emulator a name, select a CPU/ABI and a skin, and click OK.
+
+Now, on the command line run:
+``` bash 
+cordova emulate android --target=nexus5
+```
+Where _nexus5_ is the name you gave to your AVD. If you have only created one AVD, you can omit the --target.
+
+This will open an emulated Android device, on which you can navigate to, and start your app.
