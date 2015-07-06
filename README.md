@@ -61,3 +61,16 @@ Run the following commands to add platforms to your project:
 cordova platform add android
 cordova platform add ios
 ```
+
+### Step 6. Build the App
+``` bash
+cordova build
+```
+Or, for specific platforms only:
+``` bash
+cordova build android
+cordova build ios
+```
+
+### Step 7. Test the app with an emulator
+#### Android
