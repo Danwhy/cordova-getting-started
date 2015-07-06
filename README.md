@@ -86,6 +86,37 @@ Now, on the command line run:
 ``` bash 
 cordova emulate android --target=nexus5
 ```
-Where _nexus5_ is the name you gave to your AVD. If you have only created one AVD, you can omit the --target.
+Where _nexus5_ is the name you gave to your AVD. If you have only created one AVD, you can omit the target:
+``` bash
+cordova emulate android
+```
 
-This will open an emulated Android device, on which you can navigate to, and start your app.
+This will open an emulated Android device, on which you can navigate to and start your app.
+
+### Step 7. Put the App on your Device
+#### Android 
+You'll need to have the Developer options enabled on your device. If you're on Android 4.2 or above, these options are hidden by default. To access them:
+ 1. Go to your device's settings
+ 2. Go to _About Phone/Device_
+ 3. Find _Build Number_
+ 4. Tap it seven times
+ 5. Go back to the previous screen and you should see a Developer options menu
+
+Once you have access to the developer options, turn on USB Debugging.  
+
+Connect your device to your computer by USB and run the following command in your project directory:
+``` bash
+cordova run android
+```
+And with that, your app will be installed on your device.
+
+##### Sources
+* http://www.smashingmagazine.com/blog/2014/02/11/four-ways-to-build-a-mobile-app-part3-phonegap/
+* http://cordova.apache.org/docs/en/3.1.0/guide_platforms_android_index.md.html#Android%20Platform%20Guide
+* http://cordova.apache.org/docs/en/3.1.0/guide_cli_index.md.html#The%20Command-line%20Interface
+* http://developer.android.com/sdk/installing/index.html
+* http://developer.android.com/tools/device.html
+
+##### Further Reading/Docs
+* http://cordova.apache.org/docs/en/3.1.0/index.html
+* http://cordova.apache.org/docs/en/5.0.0/guide_platforms_index.md.html#Platform%20Guides
