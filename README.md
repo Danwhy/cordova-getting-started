@@ -15,7 +15,7 @@ Next install cordova:
 npm install -g cordova
 ```
 
-### Step 2. Installing the SDKs
+### Step 2. Installing the SDK
 #### Android
 Go to http://developer.android.com/sdk/installing/index.html
 
@@ -37,3 +37,10 @@ These are the minimum requirements for developing an Android app with Cordova. T
 
 #### iOS
 Coming soon...
+
+### Step 3. Making the SDK tools available in your terminal
+#### Android
+Open your _~/.bash_profile_ file and add the following line, changing 'Users/You/' to the path to your file:
+``` bash
+export PATH=${PATH}:/Users/You/android-sdk-macosx/tools:/Users/You/android-sdk-macosx/platform-tools
+``` 
