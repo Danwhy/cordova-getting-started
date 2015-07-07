@@ -15,7 +15,7 @@ Next install cordova:
 npm install -g cordova
 ```
 
-### Step 2. Installing the SDK
+### Step 2. Installing the SDK (Software Development Kit)
 #### Android
 Go to http://developer.android.com/sdk/installing/index.html
 
@@ -29,14 +29,14 @@ This will open the SDK manager. In here, you will want to make sure you have ins
  * Android SDK Platform-tools
  * Android SDK Build-tools
 
-* From Android X.X ,where X.X is the latest version (5.1.1 as of the time of writing this guide)
+* From Android X.X ,where X.X is the latest version (5.1.1 at the time of writing this guide)
  * SDK Platform
  * At least one System Image (e.g. ARM EABI v7a System Image)
 
 These are the minimum requirements for developing an Android app with Cordova. There are other tools you can install, such as the Google Play services, for developing with the Google APIs, but that won't be covered in this guide.
 
 #### iOS
-Coming soon...
+Go to this page: https://developer.apple.com/xcode/downloads/ and download Xcode. With the introduction of Xcode 7, you no longer need to pay to test your app on a real iOS device. At the time of writing xCode 7 is still in beta, but it's probably in your best interest to use it.
 
 ### Step 3. Making the SDK tools available in your terminal
 #### Android
