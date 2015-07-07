@@ -46,6 +46,15 @@ export PATH=${PATH}:/Users/You/android-sdk-macosx/tools:/Users/You/android-sdk-m
 ``` 
 This will allow you to run the build/emulate/run android commands in your terminal.
 
+####iOS
+Go to this page https://developer.apple.com/downloads/ and download the command line tools for your version of Xcode.
+
+Then run:
+``` bash
+npm install -g ios-sim
+npm install -g ios-deploy
+```
+
 ### Step 4. Creating the App
 Run the following command (with modifications) in the directory you want the project to be in:
 ``` bash
