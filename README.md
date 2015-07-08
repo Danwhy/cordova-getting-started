@@ -100,7 +100,7 @@ cordova emulate android
 This will open an emulated Android device, on which you can navigate to and start your app.
 
 ####iOS
-Inside Xcode again, in the _Product_ menu, go to _destination_ and choose your simulation device. Then click the _play_ button in the top left of Xcode.
+Inside Xcode again, in the _Product_ menu, go to _Destination_ and choose your simulation device. Then click the _play_ button in the top left of Xcode.
 
 This will open an emulated iOS device, with your app running.
 
@@ -127,7 +127,7 @@ As long as you're using Xcode 7+, this will be quite simple. If not, you need to
 
 Connect your device by USB to your computer.
 
-In Xcode, go to the _products_ menu again and change the destination to your connected iOS device. Press the _play_ button and your app will install on your device.
+In Xcode, go to the _Products_ menu again and change the destination to your connected iOS device. Press the _play_ button and your app will install on your device.
 
 ##### Sources
 * http://www.smashingmagazine.com/blog/2014/02/11/four-ways-to-build-a-mobile-app-part3-phonegap/
