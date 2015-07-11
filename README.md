@@ -1,7 +1,7 @@
 # Getting Started with Cordova
 
 ## What?
-Cordova (or PhoneGap) is a framework/set of APIs that allows you to create mobile apps using just HTML, CSS and Javascript. This is a guide to getting Cordova set up and creating an app from a pre-existing HTML/CSS/JS project.
+Cordova (or PhoneGap) is a framework/set of APIs that allows you to create mobile apps using just HTML, CSS, and Javascript. This is a guide to getting Cordova set up and creating an app from a pre-existing HTML/CSS/JS project.
 
 ## Why?
 Phone/tablet apps are as popular as ever, and many people prefer using them to a web app in a mobile browser. Cordova allows you to create apps for these users/clients without learning Java or Swift/Objective-C.
