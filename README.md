@@ -40,9 +40,9 @@ Go to this page: https://developer.apple.com/xcode/downloads/ and download Xcode
 
 ### Step 3. Making the SDK tools available in your terminal
 #### Android
-Open your _~/.bash_profile_ file and add the following line, changing 'Users/You/' to the path to your file:
+Open your _~/.bash_profile_ file and add the following line, changing 'path/to/' to the path to your file:
 ``` bash
-export PATH=${PATH}:/Users/You/android-sdk-macosx/tools:/Users/You/android-sdk-macosx/platform-tools
+export PATH=${PATH}:/path/to/android-sdk-macosx/tools:/path/to/android-sdk-macosx/platform-tools
 ``` 
 This will allow you to run the build/emulate/run android commands in your terminal.
 
