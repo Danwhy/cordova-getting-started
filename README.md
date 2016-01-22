@@ -46,6 +46,13 @@ export PATH=${PATH}:/path/to/android-sdk-macosx/tools:/path/to/android-sdk-macos
 ``` 
 This will allow you to run the build/emulate/run android commands in your terminal.
 
+If you don't have a bash profile, change to your home folder and create one:
+``` bash
+cd Users/Username
+touch .bash_profile
+open .bash_profile
+```
+
 ####iOS
 Cordova doesn't have support for building/emulating with Xcode 7 on the command line yet, so you'll have to build within Xcode itself.
 
